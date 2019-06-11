@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InfoPaginaService } from '../../services/infopagina.service';
 
 @Component({
   selector: 'app-footer',
@@ -11,7 +12,7 @@ export class FooterComponent implements OnInit {
   autor = 'Ronsistemas';
 
 
-  constructor() { }
+  constructor(public infoService: InfoPaginaService) { }
 
   ngOnInit() {
   }
