@@ -45,4 +45,11 @@
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
-  
+  /** ANIMACIONES **/
+  /*
+  Color del Loading
+*/
+svg path,
+svg rect{
+  fill: black;
+}
